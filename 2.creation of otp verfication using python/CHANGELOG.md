@@ -1,0 +1,18 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+
+## [Unreleased]
+### Added
+- Pre-commit with black, flake8 and isort
+- Tests
+
+## 0.1.1 (2023-10-10)
+### Security
+- Use hmac.compare_digest instead of plain == by [@Compro-Prasad](https://github.com/Compro-Prasad) in [#3](https://github.com/nogoodusername/simple-otp/pull/3)
+- Make use of cyptographically secure random numbers by [@Compro-Prasad](https://github.com/Compro-Prasad) in [#4](https://github.com/nogoodusername/simple-otp/pull/4)
+
+## 0.1.0 (2023-10-17)
+### Added
+- Initial Release
